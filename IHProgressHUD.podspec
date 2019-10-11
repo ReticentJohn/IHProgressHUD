@@ -24,6 +24,10 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.framework    = 'QuartzCore'
   s.source_files = 'IHProgressHUD/Classes/**/*'
+  s.resource_bundles = {
+    'IHProgressHUD' => ['IHProgressHUD/Assets/*']
+  }
+  s.resources = 'IHProgressHUD/**/*.{png,json}'
   s.requires_arc = true
   
 end
