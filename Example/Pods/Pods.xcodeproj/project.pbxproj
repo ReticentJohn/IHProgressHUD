@@ -369,7 +369,7 @@
 				AE267403793A1164AEAF6B7A5F3CAA9D /* success@3x.png */,
 			);
 			name = IHProgressHUD.bundle;
-			path = IHProgressHUD/Classes/IHProgressHUD.bundle;
+			path = IHProgressHUD/Assets/Assets.xcassets;
 			sourceTree = "<group>";
 		};
 		E0FD825B313AC02B3A3BDDA64F251BEB /* Targets Support Files */ = {
@@ -610,6 +610,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
